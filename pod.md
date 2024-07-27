@@ -1,13 +1,14 @@
-### k8s-sree cls pod & replicaset
+## k8s-sree cls pod & replicaset
 ----------------------------
 * pods run are one or more containers 
-# single point of failure means all pods are run single nodes 
+* single point of failure means all pods are run single nodes 
 # set the alias commands 
 ```
     nano .bashrc
       
       ku=kubectl
       pods="ku get pods"
+```
 
 ## find the nodes in k8s cluster
     ```
