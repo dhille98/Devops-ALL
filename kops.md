@@ -22,7 +22,8 @@
 ```
 ##  install on kubectl 
 ## install kubens & kubectx install on GitHub links 
-    [referhere](https://github.com/ahmetb/kubectx/releases/tag/v0.9.5)
+
+[referhere][https://github.com/ahmetb/kubectx/releases/tag/v0.9.5]
 
 
 
@@ -51,3 +52,6 @@ kops create cluster --name=dhille.shop --state=s3://dhillek8s.xyz --zones=us-eas
 ```
 kops delete cluster --name dhille.shop --yes
 ```
+
+
+[def]: https://github.com/ahmetb/kubectx/releases/tag/v0.9.5
